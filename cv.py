@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
 '''
-Python program to convert decimal number into binary, octal, and hexadecimal number system
+Python program to convert a decimal number into binary, octal, and hexadecimal
+number system(s)
 
 Usage:
-    Valid inputs are positive integer values:
+    Valid inputs are positive integer values [0-n]:
 
         $ python cv.py 20
 '''
