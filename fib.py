@@ -28,6 +28,7 @@ def fibonacci(n):
 
 def main():
 
+    if len(sys.argv) < 2 : exit(0)
     userInput = sys.argv[1]
 
     try:

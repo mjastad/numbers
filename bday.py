@@ -30,6 +30,9 @@ def has_duplicates(listToCheck):
 
 def main():
 
+   
+    if len(sys.argv) < 2 : exit(0)
+
     duplicateNumber = 0
 
     userInput = sys.argv[1]
@@ -55,8 +58,8 @@ def main():
 
         if x : duplicateNumber += 1
 
-    print "results: post 1000 simulations with " + str(userInput) + " student(s) there were: ", duplicateNumber,\
-                    "simulations with at least one match. approximate probability is: ", \
+    print "result: post 1000 simulations with " + str(userInput) + " student(s) there were: ", duplicateNumber,\
+                    "simulations with at least one match.\n\tapproximate probability is: ", \
                     round(((duplicateNumber/1000.0)*100),3),"%"
 
 
